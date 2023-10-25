@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54754D202AE92A3C0049DAEE /* hchatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54754D1F2AE92A3C0049DAEE /* hchatApp.swift */; };
+		54754D222AE92A3C0049DAEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54754D212AE92A3C0049DAEE /* ContentView.swift */; };
+		54754D242AE92A3D0049DAEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54754D232AE92A3D0049DAEE /* Assets.xcassets */; };
+		54754D272AE92A3D0049DAEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54754D262AE92A3D0049DAEE /* Preview Assets.xcassets */; };
+		54754D312AE92A3D0049DAEE /* hchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54754D302AE92A3D0049DAEE /* hchatTests.swift */; };
+		54754D3B2AE92A3D0049DAEE /* hchatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54754D3A2AE92A3D0049DAEE /* hchatUITests.swift */; };
+		54754D3D2AE92A3D0049DAEE /* hchatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54754D3C2AE92A3D0049DAEE /* hchatUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54754D2D2AE92A3D0049DAEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54754D142AE92A3C0049DAEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54754D1B2AE92A3C0049DAEE;
+			remoteInfo = hchat;
+		};
+		54754D372AE92A3D0049DAEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54754D142AE92A3C0049DAEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54754D1B2AE92A3C0049DAEE;
+			remoteInfo = hchat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54754D1C2AE92A3C0049DAEE /* hchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54754D1F2AE92A3C0049DAEE /* hchatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hchatApp.swift; sourceTree = "<group>"; };
+		54754D212AE92A3C0049DAEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		54754D232AE92A3D0049DAEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54754D262AE92A3D0049DAEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		54754D2C2AE92A3D0049DAEE /* hchatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hchatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54754D302AE92A3D0049DAEE /* hchatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hchatTests.swift; sourceTree = "<group>"; };
+		54754D362AE92A3D0049DAEE /* hchatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hchatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54754D3A2AE92A3D0049DAEE /* hchatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hchatUITests.swift; sourceTree = "<group>"; };
+		54754D3C2AE92A3D0049DAEE /* hchatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hchatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54754D192AE92A3C0049DAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54754D292AE92A3D0049DAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54754D332AE92A3D0049DAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54754D132AE92A3C0049DAEE = {
+			isa = PBXGroup;
+			children = (
+				54754D1E2AE92A3C0049DAEE /* hchat */,
+				54754D2F2AE92A3D0049DAEE /* hchatTests */,
+				54754D392AE92A3D0049DAEE /* hchatUITests */,
+				54754D1D2AE92A3C0049DAEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54754D1D2AE92A3C0049DAEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54754D1C2AE92A3C0049DAEE /* hchat.app */,
+				54754D2C2AE92A3D0049DAEE /* hchatTests.xctest */,
+				54754D362AE92A3D0049DAEE /* hchatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54754D1E2AE92A3C0049DAEE /* hchat */ = {
+			isa = PBXGroup;
+			children = (
+				54754D1F2AE92A3C0049DAEE /* hchatApp.swift */,
+				54754D212AE92A3C0049DAEE /* ContentView.swift */,
+				54754D232AE92A3D0049DAEE /* Assets.xcassets */,
+				54754D252AE92A3D0049DAEE /* Preview Content */,
+			);
+			path = hchat;
+			sourceTree = "<group>";
+		};
+		54754D252AE92A3D0049DAEE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				54754D262AE92A3D0049DAEE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		54754D2F2AE92A3D0049DAEE /* hchatTests */ = {
+			isa = PBXGroup;
+			children = (
+				54754D302AE92A3D0049DAEE /* hchatTests.swift */,
+			);
+			path = hchatTests;
+			sourceTree = "<group>";
+		};
+		54754D392AE92A3D0049DAEE /* hchatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54754D3A2AE92A3D0049DAEE /* hchatUITests.swift */,
+				54754D3C2AE92A3D0049DAEE /* hchatUITestsLaunchTests.swift */,
+			);
+			path = hchatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54754D1B2AE92A3C0049DAEE /* hchat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54754D402AE92A3D0049DAEE /* Build configuration list for PBXNativeTarget "hchat" */;
+			buildPhases = (
+				54754D182AE92A3C0049DAEE /* Sources */,
+				54754D192AE92A3C0049DAEE /* Frameworks */,
+				54754D1A2AE92A3C0049DAEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hchat;
+			productName = hchat;
+			productReference = 54754D1C2AE92A3C0049DAEE /* hchat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54754D2B2AE92A3D0049DAEE /* hchatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54754D432AE92A3D0049DAEE /* Build configuration list for PBXNativeTarget "hchatTests" */;
+			buildPhases = (
+				54754D282AE92A3D0049DAEE /* Sources */,
+				54754D292AE92A3D0049DAEE /* Frameworks */,
+				54754D2A2AE92A3D0049DAEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54754D2E2AE92A3D0049DAEE /* PBXTargetDependency */,
+			);
+			name = hchatTests;
+			productName = hchatTests;
+			productReference = 54754D2C2AE92A3D0049DAEE /* hchatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54754D352AE92A3D0049DAEE /* hchatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54754D462AE92A3D0049DAEE /* Build configuration list for PBXNativeTarget "hchatUITests" */;
+			buildPhases = (
+				54754D322AE92A3D0049DAEE /* Sources */,
+				54754D332AE92A3D0049DAEE /* Frameworks */,
+				54754D342AE92A3D0049DAEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54754D382AE92A3D0049DAEE /* PBXTargetDependency */,
+			);
+			name = hchatUITests;
+			productName = hchatUITests;
+			productReference = 54754D362AE92A3D0049DAEE /* hchatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54754D142AE92A3C0049DAEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					54754D1B2AE92A3C0049DAEE = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					54754D2B2AE92A3D0049DAEE = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 54754D1B2AE92A3C0049DAEE;
+					};
+					54754D352AE92A3D0049DAEE = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 54754D1B2AE92A3C0049DAEE;
+					};
+				};
+			};
+			buildConfigurationList = 54754D172AE92A3C0049DAEE /* Build configuration list for PBXProject "hchat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54754D132AE92A3C0049DAEE;
+			productRefGroup = 54754D1D2AE92A3C0049DAEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54754D1B2AE92A3C0049DAEE /* hchat */,
+				54754D2B2AE92A3D0049DAEE /* hchatTests */,
+				54754D352AE92A3D0049DAEE /* hchatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54754D1A2AE92A3C0049DAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54754D272AE92A3D0049DAEE /* Preview Assets.xcassets in Resources */,
+				54754D242AE92A3D0049DAEE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54754D2A2AE92A3D0049DAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54754D342AE92A3D0049DAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54754D182AE92A3C0049DAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54754D222AE92A3C0049DAEE /* ContentView.swift in Sources */,
+				54754D202AE92A3C0049DAEE /* hchatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54754D282AE92A3D0049DAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54754D312AE92A3D0049DAEE /* hchatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54754D322AE92A3D0049DAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54754D3B2AE92A3D0049DAEE /* hchatUITests.swift in Sources */,
+				54754D3D2AE92A3D0049DAEE /* hchatUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54754D2E2AE92A3D0049DAEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54754D1B2AE92A3C0049DAEE /* hchat */;
+			targetProxy = 54754D2D2AE92A3D0049DAEE /* PBXContainerItemProxy */;
+		};
+		54754D382AE92A3D0049DAEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54754D1B2AE92A3C0049DAEE /* hchat */;
+			targetProxy = 54754D372AE92A3D0049DAEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		54754D3E2AE92A3D0049DAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54754D3F2AE92A3D0049DAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54754D412AE92A3D0049DAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hchat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.hchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54754D422AE92A3D0049DAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hchat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.hchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54754D442AE92A3D0049DAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.hchatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hchat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hchat";
+			};
+			name = Debug;
+		};
+		54754D452AE92A3D0049DAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.hchatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hchat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hchat";
+			};
+			name = Release;
+		};
+		54754D472AE92A3D0049DAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.hchatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hchat;
+			};
+			name = Debug;
+		};
+		54754D482AE92A3D0049DAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.hchatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hchat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54754D172AE92A3C0049DAEE /* Build configuration list for PBXProject "hchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54754D3E2AE92A3D0049DAEE /* Debug */,
+				54754D3F2AE92A3D0049DAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54754D402AE92A3D0049DAEE /* Build configuration list for PBXNativeTarget "hchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54754D412AE92A3D0049DAEE /* Debug */,
+				54754D422AE92A3D0049DAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54754D432AE92A3D0049DAEE /* Build configuration list for PBXNativeTarget "hchatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54754D442AE92A3D0049DAEE /* Debug */,
+				54754D452AE92A3D0049DAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54754D462AE92A3D0049DAEE /* Build configuration list for PBXNativeTarget "hchatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54754D472AE92A3D0049DAEE /* Debug */,
+				54754D482AE92A3D0049DAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54754D142AE92A3C0049DAEE /* Project object */;
+}
