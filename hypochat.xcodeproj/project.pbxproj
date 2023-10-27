@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54754D202AE92A3C0049DAEE /* hchatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54754D1F2AE92A3C0049DAEE /* hchatApp.swift */; };
+		54754D202AE92A3C0049DAEE /* hypochatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54754D1F2AE92A3C0049DAEE /* hypochatApp.swift */; };
 		54754D222AE92A3C0049DAEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54754D212AE92A3C0049DAEE /* ContentView.swift */; };
 		54754D242AE92A3D0049DAEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54754D232AE92A3D0049DAEE /* Assets.xcassets */; };
 		54754D272AE92A3D0049DAEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54754D262AE92A3D0049DAEE /* Preview Assets.xcassets */; };
-		54754D312AE92A3D0049DAEE /* hchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54754D302AE92A3D0049DAEE /* hchatTests.swift */; };
-		54754D3B2AE92A3D0049DAEE /* hchatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54754D3A2AE92A3D0049DAEE /* hchatUITests.swift */; };
-		54754D3D2AE92A3D0049DAEE /* hchatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54754D3C2AE92A3D0049DAEE /* hchatUITestsLaunchTests.swift */; };
+		54754D312AE92A3D0049DAEE /* hypochatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54754D302AE92A3D0049DAEE /* hypochatTests.swift */; };
+		54754D3B2AE92A3D0049DAEE /* hypochatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54754D3A2AE92A3D0049DAEE /* hypochatUITests.swift */; };
+		54754D3D2AE92A3D0049DAEE /* hypochatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54754D3C2AE92A3D0049DAEE /* hypochatUITestsLaunchTests.swift */; };
 		54754D4A2AE92C010049DAEE /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54754D492AE92C010049DAEE /* Message.swift */; };
 		54754D4C2AE92C1C0049DAEE /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54754D4B2AE92C1C0049DAEE /* MessageView.swift */; };
 		54754D4E2AE92C280049DAEE /* MessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54754D4D2AE92C280049DAEE /* MessageListView.swift */; };
@@ -41,16 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		54754D1C2AE92A3C0049DAEE /* hchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		54754D1F2AE92A3C0049DAEE /* hchatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hchatApp.swift; sourceTree = "<group>"; };
+		54754D1C2AE92A3C0049DAEE /* hypochat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hypochat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54754D1F2AE92A3C0049DAEE /* hypochatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hypochatApp.swift; sourceTree = "<group>"; };
 		54754D212AE92A3C0049DAEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		54754D232AE92A3D0049DAEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54754D262AE92A3D0049DAEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		54754D2C2AE92A3D0049DAEE /* hchatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hchatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		54754D302AE92A3D0049DAEE /* hchatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hchatTests.swift; sourceTree = "<group>"; };
-		54754D362AE92A3D0049DAEE /* hchatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hchatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		54754D3A2AE92A3D0049DAEE /* hchatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hchatUITests.swift; sourceTree = "<group>"; };
-		54754D3C2AE92A3D0049DAEE /* hchatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hchatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		54754D2C2AE92A3D0049DAEE /* hypochatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hypochatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54754D302AE92A3D0049DAEE /* hypochatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hypochatTests.swift; sourceTree = "<group>"; };
+		54754D362AE92A3D0049DAEE /* hypochatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hypochatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54754D3A2AE92A3D0049DAEE /* hypochatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hypochatUITests.swift; sourceTree = "<group>"; };
+		54754D3C2AE92A3D0049DAEE /* hypochatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hypochatUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		54754D492AE92C010049DAEE /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		54754D4B2AE92C1C0049DAEE /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		54754D4D2AE92C280049DAEE /* MessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
@@ -88,9 +88,9 @@
 		54754D132AE92A3C0049DAEE = {
 			isa = PBXGroup;
 			children = (
-				54754D1E2AE92A3C0049DAEE /* hchat */,
-				54754D2F2AE92A3D0049DAEE /* hchatTests */,
-				54754D392AE92A3D0049DAEE /* hchatUITests */,
+				54754D1E2AE92A3C0049DAEE /* hypochat */,
+				54754D2F2AE92A3D0049DAEE /* hypochatTests */,
+				54754D392AE92A3D0049DAEE /* hypochatUITests */,
 				54754D1D2AE92A3C0049DAEE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,17 +98,17 @@
 		54754D1D2AE92A3C0049DAEE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				54754D1C2AE92A3C0049DAEE /* hchat.app */,
-				54754D2C2AE92A3D0049DAEE /* hchatTests.xctest */,
-				54754D362AE92A3D0049DAEE /* hchatUITests.xctest */,
+				54754D1C2AE92A3C0049DAEE /* hypochat.app */,
+				54754D2C2AE92A3D0049DAEE /* hypochatTests.xctest */,
+				54754D362AE92A3D0049DAEE /* hypochatUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		54754D1E2AE92A3C0049DAEE /* hchat */ = {
+		54754D1E2AE92A3C0049DAEE /* hypochat */ = {
 			isa = PBXGroup;
 			children = (
-				54754D1F2AE92A3C0049DAEE /* hchatApp.swift */,
+				54754D1F2AE92A3C0049DAEE /* hypochatApp.swift */,
 				54754D212AE92A3C0049DAEE /* ContentView.swift */,
 				54754D552AE92FEF0049DAEE /* NewChatView.swift */,
 				54754D492AE92C010049DAEE /* Message.swift */,
@@ -120,7 +120,7 @@
 				54754D232AE92A3D0049DAEE /* Assets.xcassets */,
 				54754D252AE92A3D0049DAEE /* Preview Content */,
 			);
-			path = hchat;
+			path = hypochat;
 			sourceTree = "<group>";
 		};
 		54754D252AE92A3D0049DAEE /* Preview Content */ = {
@@ -131,29 +131,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		54754D2F2AE92A3D0049DAEE /* hchatTests */ = {
+		54754D2F2AE92A3D0049DAEE /* hypochatTests */ = {
 			isa = PBXGroup;
 			children = (
-				54754D302AE92A3D0049DAEE /* hchatTests.swift */,
+				54754D302AE92A3D0049DAEE /* hypochatTests.swift */,
 			);
-			path = hchatTests;
+			path = hypochatTests;
 			sourceTree = "<group>";
 		};
-		54754D392AE92A3D0049DAEE /* hchatUITests */ = {
+		54754D392AE92A3D0049DAEE /* hypochatUITests */ = {
 			isa = PBXGroup;
 			children = (
-				54754D3A2AE92A3D0049DAEE /* hchatUITests.swift */,
-				54754D3C2AE92A3D0049DAEE /* hchatUITestsLaunchTests.swift */,
+				54754D3A2AE92A3D0049DAEE /* hypochatUITests.swift */,
+				54754D3C2AE92A3D0049DAEE /* hypochatUITestsLaunchTests.swift */,
 			);
-			path = hchatUITests;
+			path = hypochatUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		54754D1B2AE92A3C0049DAEE /* hchat */ = {
+		54754D1B2AE92A3C0049DAEE /* hypochat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54754D402AE92A3D0049DAEE /* Build configuration list for PBXNativeTarget "hchat" */;
+			buildConfigurationList = 54754D402AE92A3D0049DAEE /* Build configuration list for PBXNativeTarget "hypochat" */;
 			buildPhases = (
 				54754D182AE92A3C0049DAEE /* Sources */,
 				54754D192AE92A3C0049DAEE /* Frameworks */,
@@ -163,14 +163,14 @@
 			);
 			dependencies = (
 			);
-			name = hchat;
+			name = hypochat;
 			productName = hchat;
-			productReference = 54754D1C2AE92A3C0049DAEE /* hchat.app */;
+			productReference = 54754D1C2AE92A3C0049DAEE /* hypochat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		54754D2B2AE92A3D0049DAEE /* hchatTests */ = {
+		54754D2B2AE92A3D0049DAEE /* hypochatTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54754D432AE92A3D0049DAEE /* Build configuration list for PBXNativeTarget "hchatTests" */;
+			buildConfigurationList = 54754D432AE92A3D0049DAEE /* Build configuration list for PBXNativeTarget "hypochatTests" */;
 			buildPhases = (
 				54754D282AE92A3D0049DAEE /* Sources */,
 				54754D292AE92A3D0049DAEE /* Frameworks */,
@@ -181,14 +181,14 @@
 			dependencies = (
 				54754D2E2AE92A3D0049DAEE /* PBXTargetDependency */,
 			);
-			name = hchatTests;
+			name = hypochatTests;
 			productName = hchatTests;
-			productReference = 54754D2C2AE92A3D0049DAEE /* hchatTests.xctest */;
+			productReference = 54754D2C2AE92A3D0049DAEE /* hypochatTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		54754D352AE92A3D0049DAEE /* hchatUITests */ = {
+		54754D352AE92A3D0049DAEE /* hypochatUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54754D462AE92A3D0049DAEE /* Build configuration list for PBXNativeTarget "hchatUITests" */;
+			buildConfigurationList = 54754D462AE92A3D0049DAEE /* Build configuration list for PBXNativeTarget "hypochatUITests" */;
 			buildPhases = (
 				54754D322AE92A3D0049DAEE /* Sources */,
 				54754D332AE92A3D0049DAEE /* Frameworks */,
@@ -199,9 +199,9 @@
 			dependencies = (
 				54754D382AE92A3D0049DAEE /* PBXTargetDependency */,
 			);
-			name = hchatUITests;
+			name = hypochatUITests;
 			productName = hchatUITests;
-			productReference = 54754D362AE92A3D0049DAEE /* hchatUITests.xctest */;
+			productReference = 54754D362AE92A3D0049DAEE /* hypochatUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -227,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 54754D172AE92A3C0049DAEE /* Build configuration list for PBXProject "hchat" */;
+			buildConfigurationList = 54754D172AE92A3C0049DAEE /* Build configuration list for PBXProject "hypochat" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -240,9 +240,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				54754D1B2AE92A3C0049DAEE /* hchat */,
-				54754D2B2AE92A3D0049DAEE /* hchatTests */,
-				54754D352AE92A3D0049DAEE /* hchatUITests */,
+				54754D1B2AE92A3C0049DAEE /* hypochat */,
+				54754D2B2AE92A3D0049DAEE /* hypochatTests */,
+				54754D352AE92A3D0049DAEE /* hypochatUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,7 +286,7 @@
 				54754D222AE92A3C0049DAEE /* ContentView.swift in Sources */,
 				54754D542AE92E4F0049DAEE /* ChatDetailView.swift in Sources */,
 				54754D4E2AE92C280049DAEE /* MessageListView.swift in Sources */,
-				54754D202AE92A3C0049DAEE /* hchatApp.swift in Sources */,
+				54754D202AE92A3C0049DAEE /* hypochatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54754D312AE92A3D0049DAEE /* hchatTests.swift in Sources */,
+				54754D312AE92A3D0049DAEE /* hypochatTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,8 +302,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54754D3B2AE92A3D0049DAEE /* hchatUITests.swift in Sources */,
-				54754D3D2AE92A3D0049DAEE /* hchatUITestsLaunchTests.swift in Sources */,
+				54754D3B2AE92A3D0049DAEE /* hypochatUITests.swift in Sources */,
+				54754D3D2AE92A3D0049DAEE /* hypochatUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,12 +312,12 @@
 /* Begin PBXTargetDependency section */
 		54754D2E2AE92A3D0049DAEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 54754D1B2AE92A3C0049DAEE /* hchat */;
+			target = 54754D1B2AE92A3C0049DAEE /* hypochat */;
 			targetProxy = 54754D2D2AE92A3D0049DAEE /* PBXContainerItemProxy */;
 		};
 		54754D382AE92A3D0049DAEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 54754D1B2AE92A3C0049DAEE /* hchat */;
+			target = 54754D1B2AE92A3C0049DAEE /* hypochat */;
 			targetProxy = 54754D372AE92A3D0049DAEE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -449,7 +449,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"hchat/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"hypochat/Preview Content\"";
 				DEVELOPMENT_TEAM = SY2U5K5F89;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -463,7 +463,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.hchat;
+				PRODUCT_BUNDLE_IDENTIFIER = app.hypochat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -478,7 +478,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"hchat/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"hypochat/Preview Content\"";
 				DEVELOPMENT_TEAM = SY2U5K5F89;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -492,7 +492,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.hchat;
+				PRODUCT_BUNDLE_IDENTIFIER = app.hypochat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -515,7 +515,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hchat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hchat";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hypochat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hypochat";
 			};
 			name = Debug;
 		};
@@ -534,7 +534,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hchat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hchat";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hypochat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hypochat";
 			};
 			name = Release;
 		};
@@ -575,7 +575,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		54754D172AE92A3C0049DAEE /* Build configuration list for PBXProject "hchat" */ = {
+		54754D172AE92A3C0049DAEE /* Build configuration list for PBXProject "hypochat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				54754D3E2AE92A3D0049DAEE /* Debug */,
@@ -584,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54754D402AE92A3D0049DAEE /* Build configuration list for PBXNativeTarget "hchat" */ = {
+		54754D402AE92A3D0049DAEE /* Build configuration list for PBXNativeTarget "hypochat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				54754D412AE92A3D0049DAEE /* Debug */,
@@ -593,7 +593,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54754D432AE92A3D0049DAEE /* Build configuration list for PBXNativeTarget "hchatTests" */ = {
+		54754D432AE92A3D0049DAEE /* Build configuration list for PBXNativeTarget "hypochatTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				54754D442AE92A3D0049DAEE /* Debug */,
@@ -602,7 +602,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54754D462AE92A3D0049DAEE /* Build configuration list for PBXNativeTarget "hchatUITests" */ = {
+		54754D462AE92A3D0049DAEE /* Build configuration list for PBXNativeTarget "hypochatUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				54754D472AE92A3D0049DAEE /* Debug */,

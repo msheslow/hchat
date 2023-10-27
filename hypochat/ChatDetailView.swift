@@ -1,6 +1,6 @@
 //
 //  ChatDetailView.swift
-//  hchat
+//  hypochat
 //
 //  Created by msheslow on 10/25/23.
 //

@@ -1,13 +1,13 @@
 //
-//  hchatUITests.swift
-//  hchatUITests
+//  hypochatUITests.swift
+//  hypochatUITests
 //
 //  Created by msheslow on 10/25/23.
 //
 
 import XCTest
 
-final class hchatUITests: XCTestCase {
+final class hypochatUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

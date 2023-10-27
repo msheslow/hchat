@@ -1,13 +1,13 @@
 //
-//  hchatUITestsLaunchTests.swift
-//  hchatUITests
+//  hypochatUITestsLaunchTests.swift
+//  hypochatUITests
 //
 //  Created by msheslow on 10/25/23.
 //
 
 import XCTest
 
-final class hchatUITestsLaunchTests: XCTestCase {
+final class hypochatUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
