@@ -21,6 +21,9 @@
 		54754D522AE92E290049DAEE /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54754D512AE92E290049DAEE /* ChatListView.swift */; };
 		54754D542AE92E4F0049DAEE /* ChatDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54754D532AE92E4F0049DAEE /* ChatDetailView.swift */; };
 		54754D562AE92FEF0049DAEE /* NewChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54754D552AE92FEF0049DAEE /* NewChatView.swift */; };
+		54A8D9FF2AEBECF200D2C44E /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 54A8D9FE2AEBECF200D2C44E /* SQLite */; };
+		54A8DA012AEBEDB400D2C44E /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A8DA002AEBEDB400D2C44E /* DatabaseManager.swift */; };
+		54A8DA032AEBEEC700D2C44E /* ChatTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A8DA022AEBEEC700D2C44E /* ChatTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,8 @@
 		54754D512AE92E290049DAEE /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
 		54754D532AE92E4F0049DAEE /* ChatDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailView.swift; sourceTree = "<group>"; };
 		54754D552AE92FEF0049DAEE /* NewChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatView.swift; sourceTree = "<group>"; };
+		54A8DA002AEBEDB400D2C44E /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		54A8DA022AEBEEC700D2C44E /* ChatTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54A8D9FF2AEBECF200D2C44E /* SQLite in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +117,8 @@
 				54754D1F2AE92A3C0049DAEE /* hypochatApp.swift */,
 				54754D212AE92A3C0049DAEE /* ContentView.swift */,
 				54754D552AE92FEF0049DAEE /* NewChatView.swift */,
+				54A8DA002AEBEDB400D2C44E /* DatabaseManager.swift */,
+				54A8DA022AEBEEC700D2C44E /* ChatTable.swift */,
 				54754D492AE92C010049DAEE /* Message.swift */,
 				54754D4F2AE92E0C0049DAEE /* Chat.swift */,
 				54754D512AE92E290049DAEE /* ChatListView.swift */,
@@ -164,6 +172,9 @@
 			dependencies = (
 			);
 			name = hypochat;
+			packageProductDependencies = (
+				54A8D9FE2AEBECF200D2C44E /* SQLite */,
+			);
 			productName = hchat;
 			productReference = 54754D1C2AE92A3C0049DAEE /* hypochat.app */;
 			productType = "com.apple.product-type.application";
@@ -236,6 +247,9 @@
 				Base,
 			);
 			mainGroup = 54754D132AE92A3C0049DAEE;
+			packageReferences = (
+				54A8D9FD2AEBECF200D2C44E /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+			);
 			productRefGroup = 54754D1D2AE92A3C0049DAEE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -280,9 +294,11 @@
 			files = (
 				54754D4C2AE92C1C0049DAEE /* MessageView.swift in Sources */,
 				54754D562AE92FEF0049DAEE /* NewChatView.swift in Sources */,
+				54A8DA012AEBEDB400D2C44E /* DatabaseManager.swift in Sources */,
 				54754D502AE92E0C0049DAEE /* Chat.swift in Sources */,
 				54754D4A2AE92C010049DAEE /* Message.swift in Sources */,
 				54754D522AE92E290049DAEE /* ChatListView.swift in Sources */,
+				54A8DA032AEBEEC700D2C44E /* ChatTable.swift in Sources */,
 				54754D222AE92A3C0049DAEE /* ContentView.swift in Sources */,
 				54754D542AE92E4F0049DAEE /* ChatDetailView.swift in Sources */,
 				54754D4E2AE92C280049DAEE /* MessageListView.swift in Sources */,
@@ -612,6 +628,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		54A8D9FD2AEBECF200D2C44E /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.14.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		54A8D9FE2AEBECF200D2C44E /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 54A8D9FD2AEBECF200D2C44E /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 54754D142AE92A3C0049DAEE /* Project object */;
 }

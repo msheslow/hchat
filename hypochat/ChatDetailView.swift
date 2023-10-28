@@ -6,6 +6,7 @@
 //
 
 // ChatDetailView.swift
+import Foundation
 import SwiftUI
 
 struct ChatDetailView: View {

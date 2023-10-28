@@ -6,6 +6,7 @@
 //
 
 // NewChatView.swift
+import Foundation
 import SwiftUI
 
 struct NewChatView: View {

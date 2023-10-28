@@ -4,6 +4,7 @@
 //
 //  Created by msheslow on 10/25/23.
 //
+import Foundation
 
 import SwiftUI
 
