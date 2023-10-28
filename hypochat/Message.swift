@@ -7,8 +7,10 @@
 
 import Foundation
 
+// Message.swift
 struct Message: Identifiable {
-    var id = UUID()
+    var id: Int64
     var text: String
     var isSentByUser: Bool
 }
+

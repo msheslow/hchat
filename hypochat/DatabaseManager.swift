@@ -43,8 +43,14 @@ extension DatabaseManager {
     func createTables() throws {
         do {
             try db?.run(ChatTable().table.create(ifNotExists: true) { t in
-                t.column(ChatTable().id, primaryKey: true)
+                t.column(ChatTable().id, primaryKey: .autoincrement)  // Use autoincrement for the id column
                 t.column(ChatTable().name)
+            })
+            try db?.run(MessageTable().table.create(ifNotExists: true) { t in
+                t.column(ChatTable().id, primaryKey: .autoincrement)  // Use autoincrement for the id column
+                t.column(MessageTable().chatId, references: ChatTable().table, ChatTable().id)
+                t.column(MessageTable().text)
+                t.column(MessageTable().isSentByUser)
             })
         } catch {
             print(error)
@@ -52,17 +58,7 @@ extension DatabaseManager {
         }
     }
     
-    func insertChat(name: String) throws {
-        let insert = ChatTable().table.insert(ChatTable().name <- name)
-        do {
-            try db?.run(insert)
-        } catch {
-            print(error)
-            throw error
-        }
-    }
-    
-    // ... more database operation methods as needed
+    // ... other methods for inserting, retrieving, updating, and deleting data
 }
 
 
@@ -87,6 +83,39 @@ extension DatabaseManager {
         }
         
         return chats
+    }
+}
+
+
+// DatabaseManager.swift
+extension DatabaseManager {
+    func insertChat(name: String) throws -> Int64? {  // Changed return type to Int64?
+        let insert = ChatTable().table.insert(ChatTable().name <- name)
+        do {
+            let rowid = try db?.run(insert)  // rowid will hold the id of the newly inserted chat
+            return rowid
+        } catch {
+            print(error)
+            throw error
+        }
+    }
+    // ... other methods ...
+}
+
+
+extension DatabaseManager {
+    func createNewChat(name: String) throws -> Chat {
+        let insert = ChatTable().table.insert(ChatTable().name <- name)
+        do {
+            let rowid = try db?.run(insert)
+            guard let id = rowid else {
+                throw NSError()
+            }
+            return Chat(id: id, name: name)
+        } catch {
+            print(error)
+            throw error
+        }
     }
 }
 
